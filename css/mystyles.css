@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@400;700&family=Roboto:wght@400;700;900&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#about-us,#location,#contact,h2{
+    text-align:center;
+    margin-top:80px;
+} 
+
+nav {
+    width: 100%;
+    text-align: right;;
+    position: fixed;
+    align-items: center;
+    z-index: 2;
+    top: 0px;
+    padding: 10px 50px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    background-color: rgba(0,0,0,0.6);
+}
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+}
+nav a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+}
+@media only screen and (max-width: 800px) {
+    nav {
+        display: flex;
+        flex-direction:row;
+        text-align: center;
+    }
+    nav ul {
+        margin-right: 5px;
+    }
+}
+#contact-us{
+    margin-top:80px;
+}
+form{
+    width:80%;
+}
+.social-icons{
+text-align:center ;
+background-color: rgb(223, 219, 19);
+margin-bottom: -20px;
+}
+.social-icons i{
+ padding: 20px 120px;
+ color:white;
+}
+footer{
+ margin-top:-10px;
+ padding-bottom: 5px;     
+ background-color:rgb(68, 68, 68);
+ color:white;
+ text-align: center;
+ }
+ #contact{
+font-size: 20px;
+}
+#contact i{
+ color:gray;
+}
+ #contact a{
+text-decoration: none;
+color:white;
+ }
+@media only screen and (max-width: 800px) {
+    nav {
+      text-align:center;
+    }
+    nav ul{
+        margin-right:5px;
+    }
+    #about,#address{
+        text-align: left;
+    }
+}
